@@ -316,3 +316,9 @@ if __name__ == '__main__':
         success_rate = sum(success_hist) / len(success_hist)
         pbar.set_postfix({"Success Rate": success_rate})
     ar.commit() # final commit
+    
+    
+    # testing pr
+    
+    file1 = open('random.txt', 'r')
+    file1.read()
